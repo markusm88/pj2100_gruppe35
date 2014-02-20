@@ -5,3 +5,5 @@ Hei alle sammen. Vi er kjempe glade i github.
 HEihei
 
 Test
+
+Test 2
