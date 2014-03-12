@@ -1,0 +1,284 @@
+/* ==========================================================================
+   Base styles: opinionated defaults
+   
+   - Kan fjernes, men gj¿r standardene like cross-browsere
+   
+   ========================================================================== */
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+    height: 100%;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+ * 
+    VŒre klasser og ID'er
+   
+   ========================================================================== */
+
+/* HEADER */
+.headerContainer {
+    height: 80px;
+}
+
+.logoSpace {
+    text-align: center;
+    background: #70cfee;
+    border-top-left-radius: 1%;
+    border-top-right-radius: 1%;
+    height: 145px;
+}
+
+
+#mainLogo {
+    //background-color: #808080;
+    position: absolute;
+    left: 34%;
+    top: 2%;
+}
+
+
+.nav {
+    height: 40px;
+    background: #808080;
+    margin-bottom: 20px;
+}
+
+
+    .nav li {
+        text-transform: uppercase;
+        float: left;
+        font-size: 14px;
+        line-height: 40px;
+        padding: 0 15px 0px 10px;
+        -moz-transition: 0.3s ease-in;
+        -o-transition: 0.3s ease-in;
+        -webkit-transition: 0.3s ease-in;
+        transition: 0.3s ease-in;
+    }
+
+    .nav a {
+        color: white;
+        text-decoration: none;
+        -moz-transition: 0.15s ease-in;
+        -o-transition: 0.15s ease-in;
+        -webkit-transition: 0.15s ease-in;
+        transition: 0.15s ease-in;
+    }
+
+        .nav a:hover {
+            color: #70cfee;
+        }
+
+
+/* BODY */
+
+.slider {
+    border-radius: 0.5%/0.5%;
+    background: #70cfee;
+    height: 400px;
+}
+
+.newsfeed {
+    border-radius: 0.5%/0.5%;
+    background: #70cfee;
+    height: 400px;
+    margin-bottom: 20px;
+}
+/* Pictures */
+.picture {
+    width: 147%;
+    height: 147%;
+    opacity: 0.8;
+    top: -39px;
+    left: -39px;
+    -moz-transition: 0.4s ease-in;
+    -o-transition: 0.4s ease-in;
+    -webkit-transition: 0.4s ease-in;
+    transition: 0.4s ease-in;
+    position: absolute;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+    .picture:hover {
+        opacity: 1;
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+    }
+
+
+
+img.picture {
+    -webkit-filter: grayscale(0.85);
+    filter: grayscale(1);
+}
+
+.utvalg1 {
+    background-color: rgba(0, 0, 0, 0.8);
+    //border: 2px solid #70cfee;
+    height: 150px;
+    width: 150px;
+    left: -40px;
+    border-radius: 2%/2%;
+    -moz-transition: 0.15s ease-in;
+    -o-transition: 0.15s ease-in;
+    -webkit-transition: 0.15s ease-in;
+    transition: 0.15s ease-in;
+    text-align: center;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin: 78px;
+    position: relative;
+    overflow: hidden;
+}
+
+    .utvalg1:hover {
+        height: 180px;
+        width: 180px;
+        left: -55px;
+    }
+
+
+
+.row1, .row2, .row3 {
+    //background-color: #70cfee;
+}
+
+.footer {
+    background: #70cfee;
+    height: 130px;
+}
+
+.navFooter {
+    text-transform: uppercase;
+    //background-color:red;
+    color: white;
+    position: relative;
+    top: -85px;
+    text-align: center;
+    font-size: 20px;
+    -moz-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+    -webkit-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+}
+
+.footerLogos {
+    position: relative;
+    height: 70px;
+    top: -15px;
+}
+
+.navFooter:hover {
+    color: red;
+}
+
+#niss {
+    width: 150px;
+}
+
+#nith {
+    width: 120px;
+}
+
+#west {
+    width: 260px;
+}
+
+/* ==========================================================================
+    Helpe classes
+   
+    - Kan fjernes, men gj¿r standardene like cross-browsere
+   
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+    .ir:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 150%;
+    }
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+    .visuallyhidden.focusable:active,
+    .visuallyhidden.focusable:focus {
+        clip: auto;
+        height: auto;
+        margin: 0;
+        overflow: visible;
+        position: static;
+        width: auto;
+    }
+
+.invisible {
+    visibility: hidden;
+}
