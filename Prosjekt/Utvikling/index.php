@@ -1,4 +1,7 @@
-<?php require "server/config.php";?>
+<?php 
+//require "server/config.php";
+?>
+
 <!DOCTYPE html>
 
 <html>
@@ -10,8 +13,10 @@
          
    <!-- HOVED CSS-->      
    <link href="css/main_style.css" rel="stylesheet" type="text/css" />
+
    <!-- RESPONSIVE-GRID CSS--> 
    <link href="css/responsive_grid.css" rel="stylesheet" type="text/css" />
+
    <!-- RESETTING AV BROWSER CSS--> 
    <link href="css/normalize.css" rel="stylesheet" type="text/css" />
 
@@ -36,26 +41,23 @@
    </div><!--Row_close - for slider og newsfeed-->
 
    <ul class="row gutters row1">
-      <li class="col span_3 utvalg1"><h3>Utvalg1</h3></li>
-      <li class="col span_3 utvalg1"><h3>Utvalg2</h3></li>
-      <li class="col span_3 utvalg1"><h3>Utvalg3</h3></li>
-      <li class="col span_3 utvalg1"><h3>Utvalg4</h3></li>
+      <li class="col span_3 utvalg1"><img class="picture" src="Img/PUS.jpg"></img></li>
+      <li class="col span_3 utvalg1"><img class="picture" src="Img/AUG.jpg"></img></li>
+      <li class="col span_3 utvalg1"><img class="picture" src="Img/KIT.jpg"></img></li>
       <div class="clr"></div>
    </ul><!--Row1_close - for de forskjellige utvalgene-->
    
     <ul class="row gutters row2">
-      <li class="col span_3 utvalg1"><h3>Utvalg5</h3></li>
-      <li class="col span_3 utvalg1"><h3>Utvalg6</h3></li>
-      <li class="col span_3 utvalg1"><h3>Utvalg7</h3></li>
-      <li class="col span_3 utvalg1"><h3>Utvalg8</h3></li>
+      <li class="col span_3 utvalg1"><img class="picture" src="Img/MUS.jpg"></img></li>
+      <li class="col span_3 utvalg1"><img class="picture" src="Img/UFF_logo.jpg"></img></li>
+      <li class="col span_3 utvalg1"><img class="picture" src="Img/PUS.jpg"></img></li>
       <div class="clr"></div>
    </ul><!--Row2_close - for de forskjellige utvalgene-->
 
    <ul class="row gutters row3">
-      <li class="col span_3 utvalg1"><h3>Utvalg9</h3></li>
-      <li class="col span_3 utvalg1"><h3>Utvalg10</h3></li>
-      <li class="col span_3 utvalg1"><h3>Utvalg11</h3></li>
-      <li class="col span_3 utvalg1"><h3>Utvalg12</h3></li>
+      <li class="col span_3 utvalg1"><img class="picture" src="Img/PUS.jpg"></img></li>
+      <li class="col span_3 utvalg1"><img class="picture" src="Img/PUS.jpg"></img></li>
+      <li class="col span_3 utvalg1"><img class="picture" src="Img/PUS.jpg"></img></li>
        <div class="clr"></div>
    </ul><!--Row3_close - for de forskjellige utvalgene-->
    
