@@ -1,0 +1,357 @@
+/* ==========================================================================
+   Standarisering
+   ========================================================================== */
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+html,
+button,
+input,
+select,
+textarea,
+a{
+    font-family: sans-serif;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+/* ==========================================================================
+    VŒre klasser og ID'er
+    \/
+   ========================================================================== */
+
+/* ==========================================================================
+    Header
+   ========================================================================== */
+.header{
+     width: 100%;
+     background: lightgray;
+}
+.headerContainer{
+    height: 80px;
+    width: 960px;
+    margin: 0 auto;
+}
+.logoSpace{
+    background: lightgray;
+    height: 80px;
+}
+
+.navWrap{
+    width: 100%;
+    background: black;
+}
+.nav{
+    width: 960px;
+    height: 40px;
+    background: black;
+    margin: 0 auto;
+}
+
+.nav li{
+    float: left;
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+    line-height: 40px;
+    padding:  0 15px 0px 10px;
+}
+
+.loginSpace{
+    background: black;
+    padding:  10px 0px 5px;
+    height: 40px;
+}
+
+
+/* ==========================================================================
+    Body
+   ========================================================================== */
+
+.slider{
+    background: lightblue;
+    height: 400px;
+}
+
+.newsfeed{
+    background: lightgreen;
+    height: 400px;
+    margin-bottom: 0px;
+}
+
+.utvalg1{
+    background: red;
+    border: 1px solid #70cfee;
+    height: 165px;
+    width: 165px;
+    border-radius: 1%/1%;
+    -moz-transition: 0.5s ease-in;
+    -o-transition: 0.5s ease-in;
+    -webkit-transition: 0.5s ease-in;
+    transition: 0.5s ease-in;
+    text-align: center;
+    -webkit-transform: rotate(45deg);
+    margin-left: 30px;
+}
+
+.row1, .row2, .row3{
+    margin-bottom: 120px;
+    margin-top: 120px;
+}
+
+#mainWrap{
+    background-color: rgba(0, 0, 0, 0.02);
+    width: 100%;
+}
+
+.footer{
+    background: lightblue;
+    height: 100px;
+
+}
+
+.size960{
+    text-align: center;
+    width: 960px;
+    margin: 0 auto;
+    padding:20px 0px 20px;
+}
+
+
+/* Pictures */
+.picture {
+    position: absolute;
+    width: 147%;
+    height: 147%;
+    opacity: 0.7;
+    bottom: -39px;
+    right: -39px;
+    -moz-transition: 0.4s ease-in;
+    -o-transition: 0.4s ease-in;
+    -webkit-transition: 0.4s ease-in;
+    transition: 0.4s ease-in;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-filter: grayscale(.85);
+    filter: grayscale(.85);
+}
+
+    .picture:hover {
+        opacity: 1;
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+    }
+
+
+
+img.picture  {
+}
+
+.utvalg1 {
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 170px;
+    width: 170px;
+    border: 2px solid #70cfee;
+    border-radius: 2%/2%;
+    text-align: center;
+    margin: 0 auto;
+    -moz-transition: 0.15s ease-in;
+    -o-transition: 0.15s ease-in-out;
+    -webkit-transition: 0.15s ease-in;
+    transition: 0.15s ease-in;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+    .utvalg1:hover { 
+    }
+    
+
+/* ==========================================================================
+   Logg inn siden
+   ========================================================================== */
+
+.loginPage{
+    margin-top: 60px;
+    height: 600px;
+}
+
+.loginPage input[type=text]{
+    width: 220px;
+    background: white;
+}
+
+.loginPage form input[type=submit]{
+    background-color: #ffffff;
+}
+
+.blank{
+    background: transparent;
+    width: 10px;
+    height: 10px;
+}
+
+/* ==========================================================================
+   Utvalgsiden
+   ========================================================================== */
+
+.utValgene{
+    text-align: left;
+    padding: 0px 0 20px;
+}
+
+.sideMeny{
+    border-left: 1px solid black;
+    padding: 20px 0 40px;
+    text-align: left;
+    position: fixed;
+    margin-left: 740px;
+    margin-top: -8px; 
+}
+
+.sideMeny h4{
+  margin-left: 20px;
+}
+
+.sideMeny li{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.leftUtvalg{
+}
+
+.rightUtvalg{
+    text-align: right;
+}
+
+.rightUtvalg img{
+    float: right;
+}
+
+.leftUtvalg img{
+    float: left;
+    margin-right: 20px;
+}
+
+/* ==========================================================================
+   Typografi
+   ========================================================================== */
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 0.83em 0;
+}
+
+h3 {
+    font-size: 1.17em;
+    margin: 1em 0;
+}
+
+h4 {
+    font-size: 1em;
+    margin: 1.33em 0;
+}
+
+h5 {
+    font-size: 0.83em;
+    margin: 1.67em 0;
+}
+
+h6 {
+    font-size: 0.67em;
+    margin: 2.33em 0;
+}
+
+b,
+strong {
+    font-weight: bold;
+}
+
+blockquote {
+    margin: 1em 40px;
+}
+
+
+/* ==========================================================================
+   Lister
+   ========================================================================== */
+
+
+dl,
+menu,
+ol,
+ul {
+    margin: 1em 0;
+}
+
+menu,
+ol,
+ul {
+    list-style: none;
+    padding:0px; margin:0px;
+}
+
+nav ul,
+nav ol {
+    list-style: none;
+    list-style-image: none;
+}
